@@ -1,0 +1,759 @@
+[
+ {
+  "id": "m1",
+  "n": 1,
+  "semana": [
+   1,
+   2
+  ],
+  "titulo": "A escala de sete tons",
+  "tese": "A escala que Gurdjieff usa para ilustrar a Lei das Sete não é a escala maior do piano. É a escala de sete tons em entonação justa: as razões estão em Ouspensky (Search, 125) e coincidem com o diatônico sintônico de Ptolomeu. Este módulo ensina a ouvir essa diferença e a perceber um paradoxo. A música foi escrita para o instrumento temperado que Gurdjieff desprezava, e não há relato de que ele o tenha afinado na escala de sete tons.",
+  "leitura": [
+   {
+    "secao": "§7.4",
+    "nota": "A escala de sete tons, Ptolomeu, Chai-Yoo"
+   },
+   {
+    "secao": "§7.6",
+    "nota": "último parágrafo: nenhum piano afinado; MacLaren"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "Razões, não teclas",
+    "paragrafos": [
+     "Ouspensky dá cada grau como uma razão de frequências: Dó 1, Ré 9/8, Mi 5/4, Fá 4/3, Sol 3/2, Lá 5/3, Si 15/8 e Dó 2. A escala é construída sobre as três consonâncias chamadas perfeitas — a oitava 2/1, a quinta 3/2 e a quarta 4/3. Os demais graus nascem da divisão desses intervalos (§7.4).",
+     "Em cents, a unidade que divide o semitom temperado em cem partes, os graus ficam em Ré {c:9/8}, Mi {c:5/4}, Fá {c:4/3}, Sol {c:3/2}, Lá {c:5/3} e Si {c:15/8}. Não decore esses valores: o [Laboratório](#/lab/teclado) calcula todos a partir das razões, e é dele que este texto também os tira."
+    ]
+   },
+   {
+    "titulo": "Três tamanhos de passo",
+    "paragrafos": [
+     "No teclado, todo tom inteiro mede exatamente {et:2}. Na escala de sete tons há dois tons diferentes: o tom maior 9/8, de {c:9/8}, e o tom menor 10/9, de {c:10/9}. Há também um semitom, 16/15, de {c:16/15}. Subindo de Dó, a sequência é 9/8, 10/9, 16/15, 9/8, 10/9, 9/8, 16/15.",
+     "Os dois semitons caem exatamente em Mi–Fá e Si–Dó. São os ‘intervalos menores’ em que, para Gurdjieff, um processo precisa de um choque para continuar (Módulo 2). A sinopse de Petsche fala de dois grupos de intervalos maiores e dois menores. A desigualdade dentro dos maiores, 9/8 contra 10/9, não é discutida por ela, mas decorre das próprias razões de Ouspensky."
+    ]
+   },
+   {
+    "titulo": "Quatorze cents",
+    "paragrafos": [
+     "O Mi justo fica em {c:5/4}; o Mi do piano, em {et:4}. O desvio do justo em relação ao temperado é de {dev:5/4}, cerca de um oitavo de semitom, e Petsche observa que ele é surpreendentemente audível. Lá ({dev:5/3}) e Si ({dev:15/8}) se afastam ainda mais ou quase tanto. Ré ({dev:9/8}), Fá ({dev:4/3}) e Sol ({dev:3/2}) quase coincidem com o piano.",
+     "A consequência prática é que, se você quer ouvir a escala de Gurdjieff, as notas que importam são as terças e sextas. As quartas e quintas mudam pouco."
+    ]
+   },
+   {
+    "titulo": "O desprezo pelo temperamento",
+    "paragrafos": [
+     "Em Tales, Gurdjieff conta que a escala antiga foi redescoberta por um sábio chinês, ‘Chai-Yoo’, que fundou nela um novo sistema de música mas perdeu sua ligação com a Lei das Sete. Petsche identifica ali Chu Tsai-yü, príncipe e teórico da dinastia Ming cujo trabalho sobre o temperamento igual influenciou o sistema ocidental, depois publicado por Mersenne. Gurdjieff chama os instrumentos que resultaram disso — cravo, clavicórdio, órgão, piano de cauda e de armário, harmônio — de degenerados a um grau ‘infantil’.",
+     "Longe de glorificar a escala maior, como supõe parte da literatura secundária (e Godwin), Gurdjieff a criticava junto com a afinação em que ela se apoia (§7.4–7.5). Quem fala do Fá do teclado como ‘tônica da natureza’ é Blavatsky."
+    ]
+   },
+   {
+    "titulo": "O paradoxo do piano",
+    "paragrafos": [
+     "Não há relato de que Gurdjieff tenha mandado tocar a música para piano num instrumento afinado na escala de sete tons, o que teria dado aos alunos uma experiência sensível da Lei das Sete (§7.6). Quem fez isso foi Leon MacLaren, fundador da School of Economic Science, que nos anos 1970 e 1980 compôs para instrumentos afinados exatamente nessas razões.",
+     "Para o seu estudo, isso significa que o que você pratica ao piano não é a escala de sete tons. Para ouvi-la de fato, use a voz, um sintetizador afinado ([Surge XT](fonte:surge)) ou o Laboratório. Os exercícios abaixo usam o próprio piano para medir a distância entre os dois sistemas."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "gir-triangle",
+    "foco": "Ouça uma das três seleções prestando atenção só às terças dos acordes finais. Elas soam ‘cheias’ ou trêmulas?"
+   }
+  ],
+  "lab": [
+   "teclado",
+   "batimentos"
+  ],
+  "exercicios": [
+   {
+    "id": "m1e1",
+    "titulo": "Ouvir o temperamento no próprio piano",
+    "dur": 10,
+    "meio": "piano",
+    "passos": [
+     "Toque Dó4 e Mi4 juntos, *mezzo forte*, e segure com o pedal. Escute um tremor regular no som: é o batimento entre o 5º parcial de Dó e o 4º de Mi. Num piano temperado, ele pulsa a cerca de {bat:C4,E4,5,4}, ou seja, umas dez vezes por segundo.",
+     "Toque Dó4–Sol4. O batimento entre o 3º parcial de Dó e o 2º de Sol fica em {bat:C4,G4,3,2}, quase parado.",
+     "Desça uma oitava (Dó3–Mi3). O tremor cai para {bat:C3,E3,5,4}: o batimento acompanha a altura.",
+     "No Laboratório, em Batimentos, compare a terça temperada com a terça justa 5/4, que não bate."
+    ],
+    "criterio": "De olhos fechados, você distingue a terça temperada, a quinta temperada e a terça justa."
+   },
+   {
+    "id": "m1e2",
+    "titulo": "Teste cego por grau",
+    "dur": 8,
+    "meio": "laboratório",
+    "passos": [
+     "No Laboratório, em Teclado, use o teste cego. Ele toca o mesmo grau duas vezes, uma justa e outra temperada, em ordem sorteada, e você aponta qual era a justa.",
+     "Faça 10 rodadas em Mi e 10 em Lá. O resultado fica registrado no seu Progresso."
+    ],
+    "criterio": "Pelo menos 8 acertos em 10 no Mi. Acertar 5 em 10 equivale a responder no chute."
+   },
+   {
+    "id": "m1e3",
+    "titulo": "Cantar a terça justa",
+    "dur": 10,
+    "meio": "voz + afinador",
+    "passos": [
+     "No Laboratório, em Afinador, ligue o bordão em Dó numa região confortável para a sua voz.",
+     "Cante Mi e sustente. O afinador mostra o desvio em relação ao Mi justo e ao Mi do piano.",
+     "Procure o ponto em que o bordão e a voz param de bater. É o Mi justo, {dev:5/4} abaixo do Mi do piano.",
+     "Repita com Lá (6º grau) e Si (7º)."
+    ],
+    "criterio": "Você sustenta o Mi a ±10 cents do justo por quatro segundos."
+   },
+   {
+    "id": "m1e4",
+    "titulo": "A escala de sete tons num sintetizador aberto",
+    "dur": 15,
+    "meio": "Surge XT",
+    "passos": [
+     "Baixe [os arquivos de afinação](#/lab/downloads) (.scl e .kbm) e carregue os dois no [Surge XT](fonte:surge). As teclas brancas passam a tocar a escala de sete tons, com Dó no Dó central.",
+     "Toque a escala subindo e o acorde Dó–Mi–Sol. Compare com o Surge sem a afinação.",
+     "Agora toque a quinta Ré–Lá. Na escala de sete tons ela vale 40/27, isto é, {c:40/27}, e não {c:3/2}: é a ‘quinta do lobo’, menor por uma vírgula sintônica ({c:81/80}).",
+     "Toque uma melodia simples em Lá menor só nas teclas brancas e perceba onde ela soa mal."
+    ],
+    "criterio": "Você explica por que uma escala justa fixa serve a Dó maior e falha nos modos, ligação direta com o Módulo 2."
+   }
+  ],
+  "critica": "**Evidência:** as razões estão escritas (Search, 125), e o desprezo pelo temperamento também (Tales). **Aposta:** dizer que Gurdjieff ‘aplicou’ a escala de sete tons na música para piano. Nada indica isso, e o instrumento usado era temperado.",
+  "autoavaliacao": [
+   {
+    "id": "m1a1",
+    "texto": "Sei dar as razões dos sete graus e explicar de onde vêm a quarta, a quinta e a oitava."
+   },
+   {
+    "id": "m1a2",
+    "texto": "Sei por que Mi–Fá e Si–Dó são os intervalos menores e quanto medem."
+   },
+   {
+    "id": "m1a3",
+    "texto": "Ouço o batimento da terça temperada no meu piano."
+   },
+   {
+    "id": "m1a4",
+    "texto": "Explico, citando Petsche, por que ‘a Lei das Sete é a escala maior’ é um equívoco."
+   }
+  ]
+ },
+ {
+  "id": "m2",
+  "n": 2,
+  "semana": [
+   3
+  ],
+  "titulo": "Lei das Sete: os dois intervalos e o choque",
+  "tese": "A Lei das Sete diz que todo processo avança em sete estágios desiguais e trava em dois pontos — Mi–Fá e Si–Dó —, onde precisa de um choque externo. Seria fácil ilustrá-la em música. Petsche mostra que Gurdjieff quase não fez isso. Este módulo ensina a reconhecer como seria uma ilustração deliberada e a julgar, com critério fixado antes, o único candidato.",
+  "leitura": [
+   {
+    "secao": "§7.2",
+    "nota": "descontinuidade das vibrações"
+   },
+   {
+    "secao": "§7.5",
+    "nota": "Pitágoras, Godwin, Storr"
+   },
+   {
+    "secao": "§7.6",
+    "nota": "o Dervixe de Bokhara, Sitsky, modos e tonalidades menores"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "A descontinuidade das vibrações",
+    "paragrafos": [
+     "Para Gurdjieff, o universo é matéria de densidades diferentes vibrando num processo de sete estágios: da mais fina para a mais grossa (involução) e de volta (evolução). A escala ascendente é o modelo dos processos involutivos; a descendente, dos evolutivos (§7.2).",
+     "O princípio de base é que as vibrações não crescem de modo uniforme. Divida o intervalo entre uma corda que vibra mil vezes por segundo e outra que vibra duas mil: o resultado é uma ‘oitava’ de oito passos desiguais, com dois pontos de retardo. Neles é preciso aplicar energia de fora, um ‘choque’. Em Tales, isso se explica por uma alteração que o Criador fez na lei para proteger o Sol Absoluto. Segundo Gurdjieff, quem não conhece a lei não sabe onde e como fazer o esforço, e por isso raramente conclui o que começa."
+    ]
+   },
+   {
+    "titulo": "Uma linhagem, não uma descoberta",
+    "paragrafos": [
+     "O sete é central no esoterismo ocidental: sete planetas caldeus, sete metais da alquimia, sete chacras, sete céus. A ideia de um universo regido por uma escala musical remonta à tradição pitagórica do monocórdio e à Harmonia das Esferas. Godwin classifica essas teorias em ‘escalas planetárias’ de tipos A, B e C. Gurdjieff pertence ao tipo C, com Platão, Plutarco, Ptolomeu e Blavatsky: quem usa como modelo do cosmo a escala do seu tempo (§7.5).",
+     "Storr acrescenta um alerta: toda escala é uma invenção arbitrária, inclusive a temperada. Nenhuma é ‘natural’ no sentido de universal."
+    ]
+   },
+   {
+    "titulo": "O que a música poderia ter feito",
+    "paragrafos": [
+     "Uma melodia que rodeasse dó–ré–mi e adiasse a chegada ao fá ilustraria a tendência de ‘travar’ no intervalo mi–fá. Larry Sitsky fez exatamente isso no Segundo Concerto para Violino, apelidado ‘Gurdjieff’. Na música de Gurdjieff/de Hartmann, isso não aparece com clareza.",
+     "O único candidato é ‘The Bokharian Dervish, Hadji-Asvatz-Troov’ (Vol. 4, 80–83), cuja melodia começa presa à terça maior dó–mi, resistindo ao fá. Petsche admite que pode ser apenas coincidência (§7.6)."
+    ]
+   },
+   {
+    "titulo": "Por que os modos atrapalham a tese",
+    "paragrafos": [
+     "Um dos traços mais evidentes da música para piano é a frequência de modos e tonalidades menores. Petsche nota que isso não vem das fontes populares e religiosas usadas por Gurdjieff, que não são mais menores que maiores. E esses modos têm pouca relação com a escala de sete tons.",
+     "O motivo é estrutural. A Lei das Sete exige semitons entre o 3º e o 4º graus e entre o 7º e o 8º, padrão que só o modo jônico (a escala maior) tem. Em Lá eólio, os semitons caem entre o 2º e o 3º graus e entre o 5º e o 6º. Uma música modal, portanto, simplesmente não põe os ‘intervalos menores’ onde a lei os quer."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "archive-d2",
+    "foco": "Faixa 6, The Bokharian Dervish. Antes de ouvir, faça o Exercício 2.2."
+   }
+  ],
+  "lab": [
+   "metronomo"
+  ],
+  "exercicios": [
+   {
+    "id": "m2e1",
+    "titulo": "Compor a ilustração que Gurdjieff não compôs",
+    "dur": 15,
+    "meio": "piano",
+    "passos": [
+     "Em Dó maior, escreva oito compassos. Nos compassos 1 a 3, a melodia só circula entre Dó, Ré e Mi, sobre o acorde de Dó.",
+     "No compasso 4, chegue ao Fá com um evento: mudança de harmonia para Fá maior (IV), um *subito forte* ou uma fermata. Esse é o ‘choque’ como recurso de composição.",
+     "Nos compassos 5 a 7, a melodia flui Fá–Sol–Lá–Si. No compasso 8, Si–Dó com cadência V–I e outro evento marcado.",
+     "Toque a versão com os eventos e depois uma versão sem eles. Grave as duas."
+    ],
+    "criterio": "Alguém que não conhece a Lei das Sete ouve o obstáculo em Mi–Fá na primeira versão e não na segunda. Este é o seu padrão de comparação para o Exercício 2.2."
+   },
+   {
+    "id": "m2e2",
+    "titulo": "Julgar o candidato: o Dervixe de Bokhara",
+    "dur": 15,
+    "meio": "escuta + partitura",
+    "passos": [
+     "**Antes de ouvir**, escreva no Diário o que contaria como ilustração. Exemplo: ‘melodia confinada a dó–mi por pelo menos N compassos e evento marcado na chegada ao fá’. Escolha N agora.",
+     "Ouça a gravação de de Hartmann (disco 2, faixa 6) ou leia Vol. 4, 80–83.",
+     "Conte por quantos compassos a melodia fica dentro da terça. Anote se a chegada ao 4º grau é marcada.",
+     "Classifique como ilustração, coincidência ou indeterminado, segundo o critério que você fixou."
+    ],
+    "criterio": "O veredito decorre do critério escrito antes, não da impressão depois."
+   },
+   {
+    "id": "m2e3",
+    "titulo": "Onde caem os semitons",
+    "dur": 8,
+    "meio": "piano",
+    "passos": [
+     "Nas teclas brancas, toque Dó jônico (Dó a Dó), Ré dórico, Mi frígio e Lá eólio.",
+     "Para cada modo, anote entre quais graus estão os semitons (Mi–Fá e Si–Dó, contados a partir da nota inicial).",
+     "Em quais modos os semitons ficam entre 3–4 e 7–8, como exige a Lei das Sete?"
+    ],
+    "criterio": "Você explica, com a tabela, por que música modal ‘não lê’ a Lei das Sete."
+   },
+   {
+    "id": "m2e4",
+    "titulo": "Diário do choque",
+    "dur": 5,
+    "meio": "caderno",
+    "passos": [
+     "Ao fim do estudo, anote onde a sessão travou e o que a fez continuar: mudar de exercício, uma pausa, uma decisão.",
+     "Isto é uma prática da tradição, não evidência da lei. Use-a como observação de si."
+    ],
+    "criterio": "Cinco registros na semana."
+   }
+  ],
+  "critica": "**Evidência:** o princípio está exposto em Search e Tales. **Aposta:** que a música o encena. O único candidato é ambíguo, e o repertório, modal e menor, quase não oferece onde encená-lo.",
+  "autoavaliacao": [
+   {
+    "id": "m2a1",
+    "texto": "Explico a descontinuidade das vibrações e o papel do choque."
+   },
+   {
+    "id": "m2a2",
+    "texto": "Compus e toquei uma ilustração deliberada de Mi–Fá."
+   },
+   {
+    "id": "m2a3",
+    "texto": "Julguei o Dervixe de Bokhara com critério fixado antes de ouvir."
+   },
+   {
+    "id": "m2a4",
+    "texto": "Sei por que modos e tonalidades menores enfraquecem a leitura cosmológica."
+   }
+  ]
+ },
+ {
+  "id": "m3",
+  "n": 3,
+  "semana": [
+   4
+  ],
+  "titulo": "Oitavas internas e série harmônica",
+  "tese": "Escritores do círculo de Gurdjieff afirmam que a música convida a ouvir harmônicos ressoando, e que isso reflete as ‘oitavas internas’. São duas estruturas diferentes. A oitava interna é um encaixe de sete dentro de sete; a série harmônica é a progressão f, 2f, 3f…, de intervalos cada vez menores. Este módulo ensina as duas no próprio piano e mostra por que uma não é a outra.",
+  "leitura": [
+   {
+    "secao": "§7.3",
+    "nota": "sinopse das oitavas internas"
+   },
+   {
+    "secao": "§7.9",
+    "nota": "conclusão: irrelevantes na prática"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "Oitavas dentro de oitavas",
+    "paragrafos": [
+     "Cada um dos sete estágios de um processo contém uma oitava interna completa, e esta contém outras. Gurdjieff não é coerente sobre o limite. Em Tales, a divisão segue ‘até o infinito’. Em Search, segue por um bom trecho, mas não ao infinito, porque há um limite definido. Em Views, ela vai ‘até o último átomo divisível’ (§7.3).",
+     "Em Search, o universo é um Raio de Criação de sete Mundos. A matéria de cada um satura a do Mundo abaixo, e essas substâncias mais finas que impregnam as mais grossas são oitavas internas. É por elas que se formariam os corpos sutis, pela lembrança de si."
+    ]
+   },
+   {
+    "titulo": "A série harmônica",
+    "paragrafos": [
+     "Uma corda vibra ao mesmo tempo na fundamental e em múltiplos inteiros dela. Os intervalos entre harmônicos sucessivos diminuem: 2/1 (oitava), 3/2 (quinta), 4/3 (quarta), 5/4, 6/5, 7/6… Alguns caem longe do teclado. O 5º harmônico fica {dev:5/1} do piano e o 7º, {dev:7/1}.",
+     "É física, não cosmologia. Um piano grave e um pedal longo deixam os harmônicos audíveis, e o [Sonic Visualiser](fonte:sonicvis) os mostra numa gravação."
+    ]
+   },
+   {
+    "titulo": "Por que não são a mesma coisa",
+    "paragrafos": [
+     "Estruturalmente, a oitava interna repete o mesmo padrão de sete passos em escala menor, de forma recursiva. A série harmônica é linear e não se repete. Petsche insiste que as duas não se confundem (§7.3, §7.9).",
+     "Há um teste simples. Reduza os harmônicos 8 a 16 de Dó à mesma oitava. Aparecem Ré (9/8), Mi (10/8), Sol (12/8) e Si (15/8), mas não aparecem Fá (4/3) nem Lá (5/3), e os harmônicos 11, 13 e 14 trazem notas que a escala não tem. Ou seja, a escala de sete tons não é ‘a série harmônica’, e as oitavas internas não são nenhuma das duas. Os testes automáticos deste site conferem essa afirmação a cada publicação."
+    ]
+   },
+   {
+    "titulo": "O que esta tradução não cobre",
+    "paragrafos": [
+     "A §7.7, ‘A música para piano e as oitavas internas’, não está no corpo da tradução usada aqui: o título aparece sobre o texto que encerra a §7.6. Por isso, afirmações sobre peças específicas — graves extremos, acordes finais suspensos para os harmônicos soarem, citações de Barrett — **não foram verificadas** e ficam fora deste curso até a leitura do original. A conclusão de Petsche está na §7.9: as oitavas internas parecem irrelevantes para a música na prática."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "archive-d3",
+    "foco": "Faixa 14, Holy Affirming… Em cada fim de frase, ouça o que continua soando quando o grave se apaga."
+   }
+  ],
+  "lab": [
+   "harmonicos",
+   "oitava"
+  ],
+  "exercicios": [
+   {
+    "id": "m3e1",
+    "titulo": "Ressonância por simpatia",
+    "dur": 10,
+    "meio": "piano",
+    "passos": [
+     "Abaixe Dó4 **sem tocar** e segure, para liberar o abafador. Toque Dó3 forte e curto e solte só o Dó3. O Dó4 continua soando: é o 2º harmônico.",
+     "Repita segurando Sol4 (3º harmônico, desvio de {dev:3/1}), Mi5 (5º, desvio de {dev:5/1}) e Si♭5 (7º, desvio de {dev:7/1}).",
+     "Agora segure Ré4, que não é harmônico de Dó3. Silêncio.",
+     "Ordene as notas pela força da ressonância."
+    ],
+    "criterio": "A sua ordem acompanha o desvio: quanto mais perto do harmônico, mais forte a ressonância."
+   },
+   {
+    "id": "m3e2",
+    "titulo": "Isolar harmônicos",
+    "dur": 8,
+    "meio": "laboratório",
+    "passos": [
+     "Em Harmônicos, escolha a fundamental Lá2 ({hz:A2}). Toque os harmônicos 1 a 8 um a um e depois somados.",
+     "Ouça a soma e tente ‘tirar’ dela o 5º e o 7º. A tabela mostra o desvio de cada um em relação ao piano."
+    ],
+    "criterio": "Você reconhece o 5º harmônico dentro do som somado."
+   },
+   {
+    "id": "m3e3",
+    "titulo": "Uma oitava interna é audível?",
+    "dur": 10,
+    "meio": "laboratório",
+    "passos": [
+     "Em Oitava interna, escolha o passo Dó–Ré. O laboratório divide esse tom nas mesmas proporções da escala inteira: sete passos dentro de {c:9/8}.",
+     "Toque a escala ‘de fora’ e depois a ‘de dentro’. Você ainda ouve uma escala ou apenas um deslize?",
+     "Repita com o passo Mi–Fá ({c:16/15})."
+    ],
+    "criterio": "Você descreve, com as suas palavras, por que a oitava interna funciona como conceito e não como estrutura que se ouve."
+   },
+   {
+    "id": "m3e4",
+    "titulo": "Um parágrafo",
+    "dur": 10,
+    "meio": "caderno",
+    "passos": [
+     "Escreva um parágrafo que responda: por que ‘ouvir harmônicos’ não é ‘ouvir oitavas internas’? Use o resultado do Exercício 3.1 e a §7.3."
+    ],
+    "criterio": "O parágrafo cita a diferença estrutural e um dado que você mesmo produziu."
+   }
+  ],
+  "critica": "**Evidência:** a série harmônica é um fato acústico que se demonstra no seu piano. **Aposta:** que a música foi escrita para fazer ouvir oitavas internas. Petsche a considera irrelevante na prática, e o trecho específico do livro (§7.7) não foi conferido aqui.",
+  "autoavaliacao": [
+   {
+    "id": "m3a1",
+    "texto": "Explico a oitava interna e as três versões de Gurdjieff sobre o seu limite."
+   },
+   {
+    "id": "m3a2",
+    "texto": "Demonstro ressonância por simpatia no piano."
+   },
+   {
+    "id": "m3a3",
+    "texto": "Sei quais graus da escala aparecem na série harmônica e quais não aparecem."
+   }
+  ]
+ },
+ {
+  "id": "m4",
+  "n": 4,
+  "semana": [
+   5
+  ],
+  "titulo": "Lei dos Três e o número na partitura",
+  "tese": "Afirma-se que os números três e sete, das duas leis cósmicas, ‘infiltram’ a partitura. Petsche encontra poucos casos, quase todos de três, e reforça o alerta do próprio van Dullemen contra ‘procurar o que já se encontrou’. Este módulo transforma esse alerta em método: contar com regras fixadas antes e com números de controle.",
+  "leitura": [
+   {
+    "secao": "§7.6",
+    "nota": "Moore, van Dullemen, Schott; códigos; os casos de três e sete"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "As alegações",
+    "paragrafos": [
+     "A Lei dos Três rege a causalidade de todo fenômeno por três forças: afirmativa, negativa e conciliadora. Moore chama os Hinos de ‘música ideológica’. Van Dullemen diz que mesmo uma análise superficial encontra as leis do Três e do Sete. Os editores da Schott contam entre os hinos mais poderosos os que ‘representam musicalmente’ as grandes leis do ensinamento.",
+     "O próprio van Dullemen adverte contra ‘procurar o que já encontramos’, e Petsche julga que suas análises não convencem: ele extrai três e sete de estruturas onde muitos outros números poderiam ser achados (§7.6)."
+    ]
+   },
+   {
+    "titulo": "Seria plausível — e quase não acontece",
+    "paragrafos": [
+     "Gurdjieff gostava de esconder pensamentos sérios em formas atraentes, e há relatos de mensagens cifradas em ritmo. Num ensaio para as demonstrações americanas, ele pegou o pandeiro durante um foxtrote e ‘bateu’ uma palavra que os alunos, do outro lado da sala, recitaram. Bartók usou a série de Fibonacci, Messiaen os números primos, e Debussy, Satie, Holst e Scott a seção áurea.",
+     "Diante disso, surpreende o pouco simbolismo numérico na música de Gurdjieff/de Hartmann. Quase todo ele envolve o número três: fórmulas de compasso, número de partes, repetições indicadas, notas por motivo."
+    ]
+   },
+   {
+    "titulo": "Os casos documentados",
+    "paragrafos": [
+     "**10º Hino** de ‘Hymns from a Great Temple’ (Vol. 4, 44–46): Dó menor (três bemóis), três partes distintas, a segunda e a terceira predominantemente em 3/4, e três linhas musicais em toda a parte dois.",
+     "**‘Holy Affirming, Holy Denying, Holy Reconciling’** (Vol. 3, 50–51): três repetições do motivo principal aparecem três vezes, e o título cita as três forças. São **para tocar três vezes** o Nº 5 (Vol. 3, 21), ‘Prayer for Mercy’ (Vol. 3, 49), ‘Hymn for Easter Wednesday’ (Vol. 3, 102–103) e o Nº 49 (Vol. 3, 113).",
+     "**Intenção declarada:** num manuscrito-rascunho de abril de 1926, Gurdjieff anota que chegou ao salão em luta entre corpo, mente e sentimento e, como não podia dizê-lo em palavras, escreveu em música como essa lei funciona. Isso prova que ao menos uma vez ele quis retratar a Lei dos Três.",
+     "**O sete** é bem mais raro. Aparece no 1º Hino de ‘Hymns from a Great Temple’ (Vol. 4, 26–27), que tem sete compassos em 7/8 e um motivo de sete notas no baixo, de som sombrio, que se repete."
+    ]
+   },
+   {
+    "titulo": "A leitura dos três centros — e o seu estatuto",
+    "paragrafos": [
+     "Petsche propõe e logo abandona uma leitura do 10º Hino. A primeira parte, com uma melodia solene que sobe e cresce, seria a emoção. A segunda, um ostinato dançante em 3/4 sobre bordão, o corpo. A terceira, lenta e toda em acordes, o intelecto. Um acorde com fermata separa as partes, que nunca se encontram, o que figuraria a desconexão dos centros. O mesmo arranjo aparece no 7º Hino (Vol. 4, 38–39).",
+     "Ela própria a declara **especulação**: não encontrou paralelos no repertório. O Exercício 4.3 a pratica como hipótese, não como fato."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "archive-d1",
+    "foco": "Faixa 1, Holy Affirming… Conte quantas vezes o motivo principal volta."
+   }
+  ],
+  "lab": [
+   "contador",
+   "metronomo"
+  ],
+  "exercicios": [
+   {
+    "id": "m4e1",
+    "titulo": "Contagem com controle",
+    "dur": 20,
+    "meio": "partitura + laboratório",
+    "passos": [
+     "**Antes de abrir a partitura**, fixe no Contador as categorias: fórmula de compasso, número de partes, repetições indicadas, notas por motivo recorrente e acidentes na armadura.",
+     "Para cada categoria, anote quantas vezes aparecem o 3, o 7 e os números de controle 2, 4 e 5, sempre com a mesma regra.",
+     "Aplique ao 10º Hino e a uma peça do Vol. I escolhida ao acaso, como controle.",
+     "O Contador calcula a proporção de três e de sete contra a média dos controles."
+    ],
+    "criterio": "Você diz, com números, se o três está sobrerrepresentado, e em qual das duas peças."
+   },
+   {
+    "id": "m4e2",
+    "titulo": "7/8 sem chute",
+    "dur": 10,
+    "meio": "metrônomo",
+    "passos": [
+     "Petsche não diz como os sete compassos em 7/8 do 1º Hino se agrupam. Pratique as três divisões possíveis no Metrônomo: 2+2+3, 2+3+2 e 3+2+2, acentuando o primeiro tempo de cada grupo.",
+     "Abra o Vol. 4, 26–27 e leia as hastes e as barras de colcheia: elas mostram o agrupamento escrito. Adote esse.",
+     "Toque só o motivo de sete notas do baixo, contando as notas por volta."
+    ],
+    "criterio": "Você toca os sete compassos no agrupamento da partitura, sem perder o pulso nos compassos vizinhos."
+   },
+   {
+    "id": "m4e3",
+    "titulo": "Três camadas (hipótese dos centros)",
+    "dur": 12,
+    "meio": "piano",
+    "passos": [
+     "Mão esquerda: ostinato em 3/4, Dó2–Sol2–Dó3 por compasso (o ‘corpo’).",
+     "Mão direita: melodia lenta em Dó menor harmônico, Sol3–Lá♭3–Si3–Dó4–Mi♭4–Fá4–Sol4, crescendo (a ‘emoção’).",
+     "Depois de quatro compassos, pare num acorde com fermata de três segundos e decida conscientemente quando recomeçar (o ‘intelecto’).",
+     "Troque os papéis das mãos e anote o que muda na atenção."
+    ],
+    "criterio": "Você mantém as três camadas sem que uma arraste a outra. Lembrete: o exercício pratica uma leitura que a própria Petsche chama de especulação."
+   }
+  ],
+  "critica": "**Evidência:** a anotação de abril de 1926 e um punhado de casos de três. **Aposta:** que as leis ‘infiltram’ o repertório. Com contagem controlada, a pergunta passa a ter resposta numérica, e o sete quase não aparece.",
+  "autoavaliacao": [
+   {
+    "id": "m4a1",
+    "texto": "Listo os casos documentados de três e de sete com volume e página."
+   },
+   {
+    "id": "m4a2",
+    "texto": "Fiz uma contagem com números de controle e sei interpretá-la."
+   },
+   {
+    "id": "m4a3",
+    "texto": "Toco o 7/8 do 1º Hino no agrupamento escrito."
+   }
+  ]
+ },
+ {
+  "id": "m5",
+  "n": 5,
+  "semana": [
+   6
+  ],
+  "titulo": "Música objetiva: o critério e o teste",
+  "tese": "Gurdjieff dividia a arte em objetiva, feita com conhecimento matemático e de efeito previsível e igual em todos, e subjetiva. Ele sugeriu que a sua música era do primeiro tipo, e os alunos concordaram. Petsche mostra que a própria definição torna a alegação testável, e que ela falha no teste mais simples: ouvintes diferentes reagem de modos diferentes. Este módulo ensina a desenhar esse teste.",
+  "leitura": [
+   {
+    "secao": "§7.8",
+    "nota": "sinopse da música objetiva"
+   },
+   {
+    "secao": "§7.9",
+    "nota": "a música para piano diante do critério"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "A definição",
+    "paragrafos": [
+     "A arte objetiva é criada de modo consciente, deliberado e com conhecimento preciso de matemática, e afeta pessoas e fenômenos de modo previsível. A arte subjetiva é expressão pessoal e só produz respostas subjetivas. Gurdjieff também falou em arte ‘consciente’ e ‘inconsciente’ (Views) e ‘antiga’ e ‘contemporânea’ (Tales). Nesta última versão, a arte antiga é obra dos ‘Aderentes do Legominismo’, que transmitiam conhecimento por ‘inexatidões lícitas’, desvios deliberados da Lei das Sete, dos quais Gurdjieff nunca dá exemplo prático (§7.8).",
+     "Em Tales, o dervixe Hadji-Asvatz-Troov faz murchar flores com uma melodia monótona de cinco tons. Com dois tons da oitava mais grave do piano, faz surgir um furúnculo, e outra sequência o remove. A música do Legominismo despertaria ao mesmo tempo alegria no centro pensante, tristeza no sentimental e religiosidade no motor. Para Gurdjieff, só a música age nos três centros de uma vez."
+    ]
+   },
+   {
+    "titulo": "Uma ideia antiga",
+    "paragrafos": [
+     "Davi acalmando Saul com a harpa, as trombetas de Jericó, Pitágoras curando com música, Kircher receitando música para a picada da tarântula, o livro *The Secret Life of Plants*, as pesquisas que Oliver Sacks resume em *Musicophilia*: o poder da música sobre os seres é um tema contínuo. Por trás dele está a ideia do universo nascido de um som sagrado — Nada Brahman, Logos e, em Gurdjieff, o ‘Theomertmalogos’, a ‘Palavra-Deus’."
+    ]
+   },
+   {
+    "titulo": "O que foi afirmado",
+    "paragrafos": [
+     "Gurdjieff quase não escreveu sobre a música para piano. No manuscrito final do ‘Armenian Song’, porém, anotou o efeito específico das vibrações sobre Metz, que estava febril. Disse que a música dos Movimentos era idêntica à original ‘porque quem a escreveu escreveu matematicamente’. Os alunos relatam que ele tratava a sua música de harmônio como objetiva. Ele também cantarolou para de Hartmann e Anna Butkovsky-Hewitt uma melodia que seria ‘antídoto para a febre’ (§7.9).",
+     "Os alunos o apoiaram. Nott viu lágrimas correrem sem querer ao som dos Hinos e observou três processos simultâneos nos três centros. Orage falou em três conjuntos de vibrações compostos para induzir ‘o desejo de ser’. Zigrosser sentiu uma mensagem só para ele, e depois soube que outros sentiram o mesmo. Os editores da Schott chamam os Hinos de a expressão ‘mais próxima do objetivo’ dessa obra."
+    ]
+   },
+   {
+    "titulo": "As objeções de Petsche",
+    "paragrafos": [
+     "São quatro, e cada uma é independente das outras.",
+     "**1.** Não há Lei das Sete na música; logo, não há desvios ‘lícitos’ dela. **2.** As oitavas internas, outra base da arte objetiva, são irrelevantes na prática. **3.** A composição foi colaborativa, e de Hartmann, que presumivelmente não tinha o conhecimento especial de Gurdjieff, contribuiu de modo substancial. **4.** Sobre o harmônio, Cecil Lewis relata homens de negócios em lágrimas, outros entediados ou perplexos, outros comovidos sem saber por quê. Respostas divergentes ferem o critério de uniformidade.",
+     "Somam-se a elas o único aluno cético, Fritz Peters. Em 1926 ele viu uma moça russa ‘desfalecer’ exatamente no acorde previsto por Gurdjieff e concluiu que o experimento talvez dramatizasse uma ciência desconhecida, mas também parecia mais uma forma de Gurdjieff ‘brincar’ com as pessoas."
+    ]
+   },
+   {
+    "titulo": "Por que ele teria dito isso",
+    "paragrafos": [
+     "Petsche deixa duas hipóteses abertas. Pode ser mais uma fabricação oportunista, para dar autoridade e poder sobrenatural a si e à música. Ou pode ser instrumento pedagógico, para testar a ingenuidade dos alunos e afiar o discernimento. Gurdjieff aconselhava a não tomá-lo ao pé da letra. Nott guardou do Prieuré o aforismo de que, sem espírito crítico por natureza, ficar ali era inútil."
+    ]
+   },
+   {
+    "titulo": "Nota de método: uniformidade é necessária, não suficiente",
+    "paragrafos": [
+     "O critério de Gurdjieff pode **refutar** uma alegação de objetividade, mas não pode **confirmá-la**. Respostas iguais podem vir de expectativas partilhadas, contexto ritual, cultura comum ou do próprio rótulo ‘música sagrada’. Por isso o Exercício 5.1 compara um grupo que recebe informação prévia com outro que não recebe. A nota é do curso, não de Petsche."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "gir-triangle",
+    "foco": "Use uma das três seleções no Exercício 5.1."
+   }
+  ],
+  "lab": [
+   "escuta"
+  ],
+  "exercicios": [
+   {
+    "id": "m5e1",
+    "titulo": "Desenhar o teste de uniformidade",
+    "dur": 30,
+    "meio": "grupo + laboratório",
+    "passos": [
+     "Escolha uma peça e uma gravação. Fixe antes as categorias de resposta: alegria, tristeza, solenidade/religiosidade, tédio, inquietação, outra.",
+     "Grupo A, com pelo menos cinco pessoas: não diga nada sobre Gurdjieff. Cada pessoa escreve sozinha a categoria e uma frase antes de qualquer conversa.",
+     "Grupo B, outras pessoas: apresente a peça como ‘música sagrada feita para produzir o mesmo efeito em todos’ e colete do mesmo modo.",
+     "Registre tudo em Registro de escuta. Fixe antes o limiar de ‘uniforme’, por exemplo 80% na categoria mais escolhida."
+    ],
+    "criterio": "Você conclui se o teste refuta a uniformidade e se a informação prévia mudou o resultado."
+   },
+   {
+    "id": "m5e2",
+    "titulo": "Autoteste em cinco dias",
+    "dur": 5,
+    "meio": "escuta",
+    "passos": [
+     "Ouça a mesma faixa, à mesma hora, durante cinco dias, e registre a categoria antes de pensar no assunto.",
+     "A música produz em você o mesmo efeito todos os dias?"
+    ],
+    "criterio": "Cinco registros e uma frase de conclusão."
+   },
+   {
+    "id": "m5e3",
+    "titulo": "Dossiê ‘Armenian Song’ e Fritz Peters",
+    "dur": 10,
+    "meio": "leitura",
+    "passos": [
+     "Monte uma tabela com dois pontos a favor e dois contra a intenção objetiva, indicando a seção de Petsche de cada um.",
+     "Compare com o quadro de [Evidência e aposta](#/evidencia)."
+    ],
+    "criterio": "Cada ponto tem fonte e seção."
+   }
+  ],
+  "critica": "**Evidência:** a definição de arte objetiva e as alegações estão documentadas. **Aposta:** que a música para piano satisfaz a definição. Ela falha no critério que o próprio Gurdjieff propôs, e as respostas uniformes, mesmo que surgissem, não bastariam.",
+  "autoavaliacao": [
+   {
+    "id": "m5a1",
+    "texto": "Defino arte objetiva, Legominismo e inexatidões lícitas."
+   },
+   {
+    "id": "m5a2",
+    "texto": "Enuncio as quatro objeções de Petsche."
+   },
+   {
+    "id": "m5a3",
+    "texto": "Conduzi um teste de uniformidade com dois grupos."
+   }
+  ]
+ },
+ {
+  "id": "m6",
+  "n": 6,
+  "semana": [
+   7,
+   8
+  ],
+  "titulo": "Para que servia a música: a escuta como trabalho",
+  "tese": "Se a música não codifica a cosmologia nem é arte objetiva, para que serviu? O capítulo 8 de Petsche propõe três respostas tiradas da vida de Gurdjieff em 1925–27. A terceira — a música como método de ensino ao lado de Tales e dos Movimentos — transforma este curso em prática: escutar e tocar como exercício de atenção.",
+  "leitura": [
+   {
+    "secao": "§8.1",
+    "nota": "os três argumentos"
+   },
+   {
+    "secao": "de Hartmann, Our Life, cap. 25",
+    "nota": "como a música foi ditada"
+   }
+  ],
+  "secoes": [
+   {
+    "titulo": "Julho de 1925",
+    "paragrafos": [
+     "Gurdjieff começou a compor a música para piano em julho de 1925. Estava imobilizado desde um acidente de carro no ano anterior, a saúde da mulher declinava, a mãe acabara de morrer, o Prieuré enfrentava dificuldades financeiras e ele lutava para escrever Tales.",
+     "O primeiro argumento de Petsche é que a música lhe deu uma ocupação nova e criativa nesse momento. Pode ter sido também uma tentativa de preservar a música ouvida na juventude e um meio de exprimir o ensinamento quando a escrita travava (§8.1)."
+    ]
+   },
+   {
+    "titulo": "Os Hinos e a leitura de Tales",
+    "paragrafos": [
+     "A maioria dos Hinos é de 1926 em diante. O segundo argumento é que eles ajudavam os alunos a ouvir e entender o conteúdo difícil de Tales, lido em voz alta com regularidade no Prieuré."
+    ]
+   },
+   {
+    "titulo": "Ao lado do livro e dos Movimentos",
+    "paragrafos": [
+     "O terceiro argumento, o mais elaborado, é que a música para piano pode ser vista junto com Tales e os [Movimentos](fonte:maltabarova2024) como um dos principais métodos de ensino da época."
+    ]
+   },
+   {
+    "titulo": "O ditado como exercício",
+    "paragrafos": [
+     "De Hartmann conta que a música surgia à noite, no salão do castelo ou na Study House. Ao ouvir Gurdjieff começar a tocar, ele corria escada abaixo com papel pautado, e o ditado acontecia diante de todos. Tinha de anotar em velocidade febril os desvios da melodia, às vezes a repetição de apenas duas notas. Ele entendeu isso como mais um exemplo de Gurdjieff enredando as pessoas para que achassem o caminho por si: anotar a música era ao mesmo tempo um exercício de captar e reter o que é fácil perder ([Our Life, cap. 25](fonte:gir-ourlife)).",
+     "É o fio deste módulo: a escuta exigente como trabalho, sem precisar que a música carregue uma cosmologia cifrada."
+    ]
+   },
+   {
+    "titulo": "O que esta tradução não cobre",
+    "paragrafos": [
+     "Da §8.1 em diante, o desenvolvimento dos três argumentos não está na tradução usada. O que fica acima é a tese de cada um, não a prova. Para a prova, leia o capítulo 8 no original."
+    ]
+   }
+  ],
+  "escuta": [
+   {
+    "fonte": "gir-triangle",
+    "foco": "Material do ditado (Exercício 6.1)."
+   },
+   {
+    "fonte": "gir-1999",
+    "foco": "Leia ‘On Listening to the Gurdjieff/de Hartmann Music’ antes do Exercício 6.2."
+   }
+  ],
+  "lab": [
+   "afinador"
+  ],
+  "exercicios": [
+   {
+    "id": "m6e1",
+    "titulo": "Ditado à maneira de de Hartmann",
+    "dur": 15,
+    "meio": "escuta + papel",
+    "passos": [
+     "Escolha uma das gravações de de Hartmann. Anote só a melodia da primeira frase, numa passada, sem pausar.",
+     "Depois confira com repetições lentas (o Audacity reduz a velocidade sem mudar a altura) ou com a partitura.",
+     "Registre notas certas sobre o total no Diário. Repita com a mesma frase em três dias diferentes."
+    ],
+    "criterio": "A taxa de acerto sobe de um dia para outro sem que você estude a frase entre as sessões."
+   },
+   {
+    "id": "m6e2",
+    "titulo": "Tocar lento com atenção dividida",
+    "dur": 15,
+    "meio": "piano",
+    "passos": [
+     "Escolha um hino do Vol. III que você leia com folga. Toque-o na metade do andamento.",
+     "No fim de cada frase, pare um instante e anote onde estava a atenção: nas mãos, no som, num pensamento alheio.",
+     "Na segunda passada, tente manter juntos o som e a sensação das mãos.",
+     "Isto adapta uma prática da tradição (a lembrança de si). O curso não afirma efeito: registre o que acontecer."
+    ],
+    "criterio": "Dez registros de fim de frase numa sessão, sem inventar."
+   },
+   {
+    "id": "m6e3",
+    "titulo": "Ler e depois ouvir",
+    "dur": 15,
+    "meio": "leitura + escuta",
+    "passos": [
+     "Leia em voz alta, devagar, dez minutos de um texto difícil que você estude (Tales, se tiver).",
+     "Ouça um hino logo em seguida e registre o que muda na escuta.",
+     "É o argumento 2 testado em você mesmo. Não prova nada sobre o Prieuré."
+    ],
+    "criterio": "Três sessões registradas."
+   },
+   {
+    "id": "m6e4",
+    "titulo": "Ensaio final: para que serve esta música?",
+    "dur": 60,
+    "meio": "escrita",
+    "passos": [
+     "Em uma página, responda à pergunta usando pelo menos três seções de Petsche e dados do seu próprio Diário (testes cegos, contagens, escutas).",
+     "Separe o que é evidência do que é aposta, como no quadro do curso."
+    ],
+    "criterio": "Cada afirmação tem fonte, seção ou dado seu."
+   }
+  ],
+  "critica": "**Evidência:** as circunstâncias de 1925 e o relato do ditado são documentados. **Aposta (plausível):** a função pedagógica. O desenvolvimento do argumento está no original, não nesta tradução.",
+  "autoavaliacao": [
+   {
+    "id": "m6a1",
+    "texto": "Enuncio os três propósitos e as circunstâncias de 1925."
+   },
+   {
+    "id": "m6a2",
+    "texto": "Fiz o ditado em três dias e registrei a taxa de acerto."
+   },
+   {
+    "id": "m6a3",
+    "texto": "Escrevi o ensaio final separando evidência de aposta."
+   }
+  ]
+ }
+]

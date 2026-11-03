@@ -1,0 +1,136 @@
+[
+ {
+  "id": "r-holy",
+  "titulo": "Holy Affirming, Holy Denying, Holy Reconciling",
+  "vol": "III",
+  "pp": "50–51",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Três repetições do motivo principal, três vezes; o título cita as três forças.",
+  "gravacoes": [
+   "archive-d1",
+   "archive-d3"
+  ],
+  "extra": [
+   "gir-manuscrito"
+  ]
+ },
+ {
+  "id": "r-n5",
+  "titulo": "Nº 5",
+  "vol": "III",
+  "pp": "21",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Indicada para ser tocada três vezes.",
+  "gravacoes": [],
+  "extra": []
+ },
+ {
+  "id": "r-mercy",
+  "titulo": "Prayer for Mercy",
+  "vol": "III",
+  "pp": "49",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Indicada para ser tocada três vezes.",
+  "gravacoes": [],
+  "extra": []
+ },
+ {
+  "id": "r-easterwed",
+  "titulo": "Hymn for Easter Wednesday",
+  "vol": "III",
+  "pp": "102–103",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Indicada para ser tocada três vezes.",
+  "gravacoes": [
+   "archive-d3"
+  ],
+  "extra": []
+ },
+ {
+  "id": "r-n49",
+  "titulo": "Nº 49",
+  "vol": "III",
+  "pp": "113",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Indicada para ser tocada três vezes.",
+  "gravacoes": [],
+  "extra": []
+ },
+ {
+  "id": "r-hino1",
+  "titulo": "Hymns from a Great Temple — 1º Hino",
+  "vol": "IV",
+  "pp": "26–27",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Sete compassos em 7/8; motivo de sete notas no baixo, recorrente. Leia o agrupamento nas barras de colcheia.",
+  "gravacoes": [],
+  "extra": []
+ },
+ {
+  "id": "r-hino7",
+  "titulo": "Hymns from a Great Temple — 7º Hino",
+  "vol": "IV",
+  "pp": "38–39",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Mesmo arranjo em partes dissociadas do 10º Hino.",
+  "gravacoes": [],
+  "extra": []
+ },
+ {
+  "id": "r-hino10",
+  "titulo": "Hymns from a Great Temple — 10º Hino",
+  "vol": "IV",
+  "pp": "44–46",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Dó menor; três partes separadas por fermata; partes 2–3 em 3/4; três linhas na parte 2. Na p. 44 do Vol. IV há o fac-símile do rascunho e do manuscrito final da mesma peça (Petsche 2013).",
+  "gravacoes": [],
+  "extra": [
+   "petsche2013"
+  ]
+ },
+ {
+  "id": "r-bokhara",
+  "titulo": "The Bokharian Dervish, Hadji-Asvatz-Troov",
+  "vol": "IV",
+  "pp": "80–83",
+  "modulo": "m2",
+  "secao": "§7.6",
+  "observar": "O começo fica dentro da terça dó–mi. Ilustração de Mi–Fá ou coincidência?",
+  "gravacoes": [
+   "archive-d2"
+  ],
+  "extra": []
+ },
+ {
+  "id": "r-prayerdespair",
+  "titulo": "Prayer and Despair",
+  "vol": "—",
+  "pp": "—",
+  "modulo": "m4",
+  "secao": "§7.6",
+  "observar": "Uma das peças que van Dullemen analisa em busca do três e do sete.",
+  "gravacoes": [
+   "archive-d1"
+  ],
+  "extra": []
+ },
+ {
+  "id": "r-armenian",
+  "titulo": "Armenian Song",
+  "vol": "não indicado no trecho",
+  "pp": "—",
+  "modulo": "m5",
+  "secao": "§7.9",
+  "observar": "O manuscrito final anota o efeito das vibrações sobre Metz, febril: o indício mais direto de pretensão objetiva.",
+  "gravacoes": [],
+  "extra": []
+ }
+]

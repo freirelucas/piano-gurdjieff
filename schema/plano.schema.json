@@ -1,0 +1,64 @@
+{
+ "type": "object",
+ "properties": {
+  "rotina": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "bloco": {
+      "type": "string",
+      "minLength": 1
+     },
+     "min": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "o_que": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "bloco",
+     "min",
+     "o_que"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "semanas": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "semana": {
+      "type": "integer"
+     },
+     "foco": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "semana",
+     "foco"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 0
+  },
+  "nota": {
+   "type": "string",
+   "minLength": 1
+  }
+ },
+ "required": [
+  "rotina",
+  "semanas",
+  "nota"
+ ],
+ "additionalProperties": false,
+ "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

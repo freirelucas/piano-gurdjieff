@@ -1,0 +1,100 @@
+[
+ {
+  "id": "e-escala-maior",
+  "afirmacao": "A Lei das Sete reproduz a escala diatônica maior.",
+  "quem": "Literatura secundária; Godwin",
+  "veredito": "nao-sustentado",
+  "secao": "§7.4–7.5",
+  "a_favor": [
+   "A estrutura em graus se parece com a da escala maior."
+  ],
+  "contra": [
+   "Gurdjieff só fala em ‘escala de sete tons’, com razões dadas em Search, 125.",
+   "Em Tales, ele despreza o temperamento igual e os instrumentos de teclado.",
+   "Quem cita o Fá diatônico do piano é Blavatsky, não Gurdjieff."
+  ]
+ },
+ {
+  "id": "e-lei-sete",
+  "afirmacao": "A Lei das Sete está escrita na estrutura da música.",
+  "quem": "Moore, van Dullemen, editores da Schott",
+  "veredito": "quase-sem-evidencia",
+  "secao": "§7.6",
+  "a_favor": [
+   "O 1º Hino de ‘Hymns from a Great Temple’ tem sete compassos em 7/8 e um motivo de sete notas no baixo.",
+   "‘The Bokharian Dervish’ começa preso entre dó e mi."
+  ],
+  "contra": [
+   "O número sete é raro no repertório.",
+   "O começo do Dervixe pode ser coincidência.",
+   "Predominam modos e tonalidades menores, que pouco se relacionam com a escala de sete tons.",
+   "Não há relato de piano afinado na escala de sete tons."
+  ]
+ },
+ {
+  "id": "e-lei-tres",
+  "afirmacao": "A Lei dos Três está representada na música.",
+  "quem": "Moore; Schott; o próprio Gurdjieff (abril de 1926)",
+  "veredito": "pontual",
+  "secao": "§7.6",
+  "a_favor": [
+   "A anotação de abril de 1926 diz que ele escreveu a lei ‘em música’.",
+   "‘Holy Affirming…’ (Vol. 3, 50–51): três repetições do motivo, três vezes.",
+   "10º Hino: três bemóis, três partes, três linhas na parte 2.",
+   "Quatro peças marcadas para tocar três vezes."
+  ],
+  "contra": [
+   "Os casos são poucos.",
+   "A leitura dos três centros no 10º Hino é especulação sem paralelo no repertório (Petsche).",
+   "As análises de van Dullemen forçam números que aparecem com a mesma frequência que outros."
+  ]
+ },
+ {
+  "id": "e-oitavas",
+  "afirmacao": "A música faz ouvir harmônicos que refletem as oitavas internas.",
+  "quem": "Escritores de dentro do Work",
+  "veredito": "nao-sustentado",
+  "secao": "§7.3, §7.9",
+  "a_favor": [
+   "Há ênfase em graves e em intervalos perfeitos, o que favorece a ressonância."
+  ],
+  "contra": [
+   "Oitava interna (sete dentro de sete) e série harmônica (f, 2f, 3f…) são estruturas diferentes.",
+   "Petsche julga as oitavas internas irrelevantes para a música na prática.",
+   "O corpo da §7.7 não está na tradução usada aqui: afirmações sobre peças específicas não foram verificadas."
+  ]
+ },
+ {
+  "id": "e-objetiva",
+  "afirmacao": "A música para piano é arte objetiva.",
+  "quem": "Gurdjieff (implícito); Nott, Orage, Zigrosser, Schott, Blom",
+  "veredito": "nao-sustentado",
+  "secao": "§7.8–7.9",
+  "a_favor": [
+   "A nota do ‘Armenian Song’ sobre o efeito das vibrações em Metz, febril.",
+   "Relatos de efeitos fortes e simultâneos nos três centros (Nott, Orage)."
+  ],
+  "contra": [
+   "Sem Lei das Sete na música, não há desvios ‘lícitos’ dela.",
+   "As oitavas internas são irrelevantes na prática.",
+   "A composição foi colaborativa: de Hartmann participou sem o ‘conhecimento especial’.",
+   "Cecil Lewis relata respostas divergentes, o que fere o critério de uniformidade.",
+   "Fritz Peters viu nos experimentos um ‘jogo’ de Gurdjieff com as pessoas."
+  ]
+ },
+ {
+  "id": "e-pedagogia",
+  "afirmacao": "A música serviu como método de ensino, ao lado de Tales e dos Movimentos.",
+  "quem": "Petsche, cap. 8",
+  "veredito": "plausivel",
+  "secao": "§8.1",
+  "a_favor": [
+   "Composta a partir de julho de 1925, num momento de crise pessoal e de dificuldade em escrever Tales.",
+   "Os Hinos são de 1926 em diante, quando Tales era lido em voz alta no Prieuré.",
+   "O ditado era em si um exercício de atenção (de Hartmann)."
+  ],
+  "contra": [
+   "O desenvolvimento dos três argumentos (depois da §8.1) não está na tradução usada aqui: leia o original."
+  ]
+ }
+]

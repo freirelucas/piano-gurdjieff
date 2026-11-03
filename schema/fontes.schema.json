@@ -1,0 +1,82 @@
+{
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^[a-z0-9][a-z0-9-]*$"
+   },
+   "titulo": {
+    "type": "string",
+    "minLength": 1
+   },
+   "autor": {
+    "type": "string",
+    "minLength": 1
+   },
+   "ano": {
+    "type": [
+     "integer",
+     "string",
+     "null"
+    ]
+   },
+   "url": {
+    "type": "string",
+    "pattern": "^https?://"
+   },
+   "tipo": {
+    "enum": [
+     "partitura",
+     "gravacao",
+     "texto",
+     "academico",
+     "oer",
+     "software",
+     "catalogo",
+     "legal",
+     "alerta"
+    ]
+   },
+   "acesso": {
+    "enum": [
+     "aberto",
+     "aberto-com-login",
+     "amostra",
+     "comercial",
+     "terceiro-sem-licenca",
+     "consulta-presencial",
+     "nao-usar"
+    ]
+   },
+   "licenca": {
+    "type": "string",
+    "minLength": 1
+   },
+   "nota": {
+    "type": "string",
+    "minLength": 1
+   },
+   "conferido": {
+    "type": "string",
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+   }
+  },
+  "required": [
+   "id",
+   "titulo",
+   "autor",
+   "ano",
+   "url",
+   "tipo",
+   "acesso",
+   "licenca",
+   "nota",
+   "conferido"
+  ],
+  "additionalProperties": false
+ },
+ "minItems": 1,
+ "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "piano-gurdjieff",
+  "private": true,
+  "type": "module",
+  "description": "Tutor crítico da música para piano de Gurdjieff/de Hartmann. O sítio é estático e sem build de JS; isto é só o harness de testes.",
+  "scripts": {
+    "test:unit": "node --test --test-isolation=none tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run test:e2e"
+  },
+  "devDependencies": { "@playwright/test": "1.49.1" }
+}

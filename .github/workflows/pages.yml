@@ -1,0 +1,55 @@
+name: Verificar e publicar
+
+# Publica no GitHub Pages SÓ depois de: contrato do conteúdo, testes do núcleo, build e teste de fumaça
+# em navegador real. Pull requests rodam a verificação inteira, sem publicar.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "24" }
+      - run: pip install jsonschema==4.23.0
+      - name: Contrato do conteúdo (esquema, referências, nenhum número digitado à mão)
+        run: python tools/check_conteudo.py
+      - name: Testes do núcleo (afinação, marcação, detector de altura, conteúdo)
+        run: node --test --test-isolation=none tests/*.test.mjs
+      - name: Build (_site + service worker com hash de conteúdo)
+        run: python build.py
+      - run: npm install --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - name: Teste de fumaça em navegador (todas as rotas, sem erro de console)
+        run: npx playwright test
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        with: { path: _site }
+
+  publicar:
+    needs: verificar
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

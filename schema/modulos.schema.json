@@ -1,0 +1,200 @@
+{
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^[a-z0-9][a-z0-9-]*$"
+   },
+   "n": {
+    "type": "integer",
+    "minimum": 1
+   },
+   "semana": {
+    "type": "array",
+    "items": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 12
+    },
+    "minItems": 1
+   },
+   "titulo": {
+    "type": "string",
+    "minLength": 1
+   },
+   "tese": {
+    "type": "string",
+    "minLength": 1
+   },
+   "leitura": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "secao": {
+       "type": "string",
+       "minLength": 1
+      },
+      "nota": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "secao",
+      "nota"
+     ],
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "secoes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "titulo": {
+       "type": "string",
+       "minLength": 1
+      },
+      "paragrafos": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "titulo",
+      "paragrafos"
+     ],
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "escuta": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "fonte": {
+       "type": "string",
+       "pattern": "^[a-z0-9][a-z0-9-]*$"
+      },
+      "foco": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "fonte",
+      "foco"
+     ],
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "lab": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "minItems": 0
+   },
+   "exercicios": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string",
+       "pattern": "^[a-z0-9][a-z0-9-]*$"
+      },
+      "titulo": {
+       "type": "string",
+       "minLength": 1
+      },
+      "dur": {
+       "type": "integer",
+       "minimum": 1
+      },
+      "meio": {
+       "type": "string",
+       "minLength": 1
+      },
+      "passos": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      },
+      "criterio": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "id",
+      "titulo",
+      "dur",
+      "meio",
+      "passos",
+      "criterio"
+     ],
+     "additionalProperties": false
+    },
+    "minItems": 1
+   },
+   "critica": {
+    "type": "string",
+    "minLength": 1
+   },
+   "autoavaliacao": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string",
+       "pattern": "^[a-z0-9][a-z0-9-]*$"
+      },
+      "texto": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "id",
+      "texto"
+     ],
+     "additionalProperties": false
+    },
+    "minItems": 1
+   }
+  },
+  "required": [
+   "id",
+   "n",
+   "semana",
+   "titulo",
+   "tese",
+   "leitura",
+   "secoes",
+   "escuta",
+   "lab",
+   "exercicios",
+   "critica",
+   "autoavaliacao"
+  ],
+  "additionalProperties": false
+ },
+ "minItems": 1,
+ "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,31 @@
+{
+ "rotina": [
+  {
+   "bloco": "Escuta",
+   "min": 5,
+   "o_que": "a faixa indicada no módulo da semana, com o foco dado"
+  },
+  {
+   "bloco": "Ouvido e laboratório",
+   "min": 10,
+   "o_que": "a ferramenta do módulo (teste cego, batimentos, harmônicos, contador…)"
+  },
+  {
+   "bloco": "Piano",
+   "min": 15,
+   "o_que": "o exercício de piano da semana"
+  },
+  {
+   "bloco": "Diário",
+   "min": 5,
+   "o_que": "o que travou, o que mediu, o que ouviu"
+  }
+ ],
+ "semanas": [
+  {
+   "semana": 8,
+   "foco": "Revisão: refazer os testes cegos e escrever o ensaio final (6.4)."
+  }
+ ],
+ "nota": "Duração sugerida de oito semanas. Cada semana vem do campo ‘semana’ dos módulos; a semana 8 é de revisão."
+}
