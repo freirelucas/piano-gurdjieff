@@ -24,16 +24,18 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - uses: actions/setup-node@v4
-        with: { node-version: "24" }
+        with: { node-version: "22" }
       - run: pip install jsonschema==4.23.0
       - name: Contrato do conteúdo (esquema, referências, nenhum número digitado à mão)
         run: python tools/check_conteudo.py
       - name: Testes do núcleo (afinação, marcação, detector de altura, conteúdo)
-        run: node --test --test-isolation=none tests/*.test.mjs
+        run: for f in tests/*.test.mjs; do node "$f" || exit 1; done
       - name: Build (_site + service worker com hash de conteúdo)
         run: python build.py
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
+      - name: Versões
+        run: echo "::notice title=versões::node $(node -v) · $(timeout 60 npx playwright --version)"
       - name: Servidor estático responde
         run: |
           python -m http.server 8099 --directory _site > /tmp/srv.log 2>&1 &
@@ -49,6 +51,7 @@ jobs:
           set +e
           timeout -k 10 300 npx playwright test --reporter=line,json > /tmp/pw.log 2>&1
           rc=$?
+          echo "::notice title=log da fumaça::$(wc -c < /tmp/pw.log) bytes, saída $rc"
           if [ $rc -ne 0 ]; then
             echo "::error title=fumaça::playwright saiu com $rc"
             tail -c 3500 /tmp/pw.log | sed 's/\x1b\[[0-9;]*m//g' | python -c "import sys;print('::error title=log da fumaça::'+sys.stdin.read().replace('%','%25').replace('\r','').replace('\n','%0A'))"
