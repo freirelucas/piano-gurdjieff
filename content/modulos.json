@@ -312,7 +312,7 @@
    {
     "titulo": "O que esta tradução não cobre",
     "paragrafos": [
-     "A §7.7, ‘A música para piano e as oitavas internas’, não está no corpo da tradução usada aqui: o título aparece sobre o texto que encerra a §7.6. Por isso, afirmações sobre peças específicas — graves extremos, acordes finais suspensos para os harmônicos soarem, citações de Barrett — **não foram verificadas** e ficam fora deste curso até a leitura do original. A conclusão de Petsche está na §7.9: as oitavas internas parecem irrelevantes para a música na prática."
+     "Na tradução usada aqui, a seção intitulada §7.7, ‘A música para piano e as oitavas internas’, tem texto, mas ele trata do número sete, do Dervixe de Bokhara, dos modos e de MacLaren. Não há nela nenhuma menção a oitavas internas, harmônicos ou Barrett. Por isso, afirmações sobre peças específicas — graves extremos, acordes finais suspensos para os harmônicos soarem, citações de Barrett — **não foram verificadas** e ficam fora deste curso até a leitura do original. A conclusão de Petsche está na §7.9: as oitavas internas parecem irrelevantes para a música na prática."
     ]
    }
   ],
@@ -374,7 +374,7 @@
     "criterio": "O parágrafo cita a diferença estrutural e um dado que você mesmo produziu."
    }
   ],
-  "critica": "**Evidência:** a série harmônica é um fato acústico que se demonstra no seu piano. **Aposta:** que a música foi escrita para fazer ouvir oitavas internas. Petsche a considera irrelevante na prática, e o trecho específico do livro (§7.7) não foi conferido aqui.",
+  "critica": "**Evidência:** a série harmônica é um fato acústico que se demonstra no seu piano. **Aposta:** que a música foi escrita para fazer ouvir oitavas internas. Petsche a considera irrelevante na prática, e a discussão específica sobre piano e oitavas internas não aparece na tradução usada aqui.",
   "autoavaliacao": [
    {
     "id": "m3a1",
