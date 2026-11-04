@@ -37,16 +37,26 @@ jobs:
       - name: Servidor estático responde
         run: |
           python -m http.server 8099 --directory _site > /tmp/srv.log 2>&1 &
+          SRV=$!
           sleep 2
           for u in index.html js/main.js data/modulos.json sw.js downloads/sete_tons.scl; do
             code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:8099/$u"); echo "::notice title=servidor::$u → $code"
             test "$code" = 200
           done
-          kill %1
+          kill $SRV; sleep 1
       - name: Teste de fumaça em navegador (todas as rotas, sem erro de console)
-        run: timeout -k 10 420 npx playwright test --reporter=list,json || { echo "::error title=fumaça::playwright saiu com $?"; exit 1; }
+        run: |
+          set +e
+          timeout -k 10 300 npx playwright test --reporter=line,json > /tmp/pw.log 2>&1
+          rc=$?
+          if [ $rc -ne 0 ]; then
+            echo "::error title=fumaça::playwright saiu com $rc"
+            tail -c 3500 /tmp/pw.log | sed 's/\x1b\[[0-9;]*m//g' | python -c "import sys;print('::error title=log da fumaça::'+sys.stdin.read().replace('%','%25').replace('\r','').replace('\n','%0A'))"
+          fi
+          exit $rc
         env:
           PLAYWRIGHT_JSON_OUTPUT_NAME: /tmp/pw.json
+          DEBUG: pw:webserver
       - name: Falhas da fumaça como anotações
         if: failure()
         run: node tools/anotar_playwright.mjs /tmp/pw.json
