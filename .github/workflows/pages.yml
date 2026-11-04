@@ -34,8 +34,22 @@ jobs:
         run: python build.py
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
+      - name: Servidor estático responde
+        run: |
+          python -m http.server 8099 --directory _site > /tmp/srv.log 2>&1 &
+          sleep 2
+          for u in index.html js/main.js data/modulos.json sw.js downloads/sete_tons.scl; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:8099/$u"); echo "::notice title=servidor::$u → $code"
+            test "$code" = 200
+          done
+          kill %1
       - name: Teste de fumaça em navegador (todas as rotas, sem erro de console)
-        run: npx playwright test
+        run: timeout -k 10 420 npx playwright test --reporter=list,json > /tmp/pw.json || { echo "::error title=fumaça::playwright saiu com $?"; exit 1; }
+        env:
+          PLAYWRIGHT_JSON_OUTPUT_NAME: /tmp/pw.json
+      - name: Falhas da fumaça como anotações
+        if: failure()
+        run: node tools/anotar_playwright.mjs /tmp/pw.json
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         with: { path: _site }
