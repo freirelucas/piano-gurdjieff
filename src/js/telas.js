@@ -37,7 +37,7 @@ export function inicio(d) {
     h('section', {}, h('h2', {}, 'Módulos'), h('div', { class: 'cards' }, d.modulos.map(m => h('a', { class: 'card', href: `#/m/${m.id}` },
       h('span', { class: 'n' }, `Módulo ${m.n}`), h('b', {}, m.titulo), h('span', { class: 'barra' }, h('i', { style: null, dataset: { p: pct(m) } })), h('small', {}, `${pct(m)}% · ${m.exercicios.length} exercícios`))))),
     h('section', { class: 'aviso' }, h('h3', {}, 'Escopo e limites'),
-      par('Na tradução de trabalho usada aqui, a seção intitulada §7.7 trata do número sete, dos modos e de MacLaren, **sem nenhuma menção a oitavas internas, harmônicos ou Barrett**; do capítulo 8, ela traz **só a introdução (§8.1)**. O que depende dessas partes está marcado como não verificado. As partituras são da edição Schott, sob direitos autorais: este sítio não reproduz nenhuma. Veja [Fontes](#/fontes) e [Correções](#/correcoes) ao material anterior.', d.fontesMap)));
+      par('Na tradução de trabalho usada aqui, a seção intitulada §7.7 trata do número sete, dos modos e de MacLaren, e, fora do título, **não discute oitavas internas, harmônicos nem Barrett**; do capítulo 8, ela traz **só a introdução (§8.1)**. O que depende dessas partes está marcado como não verificado. As partituras são da edição Schott, sob direitos autorais: este sítio não reproduz nenhuma. Veja [Fontes](#/fontes) e [Correções](#/correcoes) ao material anterior.', d.fontesMap)));
 }
 
 export function modulo(d, [id]) {

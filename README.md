@@ -18,7 +18,7 @@ As contagens exibidas no sítio são calculadas a partir de `content/`, não esc
 
 ## Limites declarados
 
-- Na tradução de trabalho, a seção intitulada §7.7 trata do número sete, dos modos e de MacLaren, sem mencionar oitavas internas, harmônicos ou Barrett. Do cap. 8, ela traz **só a §8.1**. O que depende dessas partes está marcado como não verificado.
+- Na tradução de trabalho, a seção intitulada §7.7 tem como título as oitavas internas, mas o texto trata do número sete, dos modos e de MacLaren, sem discutir oitavas internas, harmônicos ou Barrett. Do cap. 8, ela traz **só a §8.1**. O que depende dessas partes está marcado como não verificado.
 - Nenhuma partitura nem gravação é hospedada. A edição Schott (1996–2005) está sob direitos autorais. No Brasil, as composições em coautoria entram em domínio público 70 anos depois de 1º de janeiro do ano seguinte à morte do último coautor (Lei 9.610, arts. 41–42); de Hartmann morreu em 1956. Isso não é parecer jurídico.
 
 ## Arquitetura
