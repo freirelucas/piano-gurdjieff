@@ -56,7 +56,7 @@ Ressalva: enquanto o `sambrass-tutor` não filtrar o próprio cache por prefixo,
 ```bash
 pip install jsonschema
 python tools/check_conteudo.py
-node --test --test-isolation=none tests/*.test.mjs
+for f in tests/*.test.mjs; do node "$f"; done
 python build.py && python -m http.server 8099 --directory _site
 npm install && npx playwright install chromium && npx playwright test
 ```
@@ -64,6 +64,10 @@ npm install && npx playwright install chromium && npx playwright test
 ## Escrever conteúdo
 
 Edite `content/*.json`. Valores em cents ou Hz **não podem ser digitados**: use os tokens `{c:5/4}` (cents), `{c0:5/4}` (inteiro), `{dev:5/4}` (desvio do temperado), `{et:4}` (semitons temperados), `{hz:A2}`, `{hzr:5/3@C2}` e `{bat:C4,E4,5,4}` (batimento entre parciais). Links: `[texto](fonte:id)`, `[texto](#/rota)` ou `https://`. O CI reprova tudo o que fugir disso.
+
+## Nota de CI
+
+O Playwright fixado em 1.49.1 não termina de iniciar no Node 24: a etapa ficava parada até o tempo-limite, sem escrever log. O CI usa Node 22 LTS e Playwright 1.x atual. A etapa de fumaça tem tempo-limite rígido, e as falhas viram anotações (`tools/anotar_playwright.mjs`), legíveis pela API sem baixar logs.
 
 ## Licenças
 
